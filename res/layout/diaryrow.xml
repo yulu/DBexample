@@ -1,0 +1,26 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_alignLeft="@+id/name"
+    android:layout_below="@+id/name"
+    android:padding="12dip">
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/name"
+        android:layout_marginRight="4dp"
+        android:text="Diary Title "
+        android:textStyle="bold"
+        android:textSize="16dip"/>
+    
+    <TextView
+        android:id="@+id/datetext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Data Recorded"
+        android:textSize="14dip"/>
+    
+</RelativeLayout>
